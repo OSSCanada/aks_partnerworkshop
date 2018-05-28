@@ -22,8 +22,8 @@ You need to have installed at least [Docker](https://docs.docker.com/install/) o
 ## 1:30pm
 
 - Presentation
--Lab6 - [Operational Monitoring and Log Management](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/06-monitoring-k8s.md)
--Lab7 - [Application and Infrastructure Scaling](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/07-cluster-scaling.md)
+- Lab6 - [Operational Monitoring and Log Management](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/06-monitoring-k8s.md)
+- Lab7 - [Application and Infrastructure Scaling](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/07-cluster-scaling.md)
 - Wrap up
 
 ## 3pm
