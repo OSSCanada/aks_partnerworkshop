@@ -1,8 +1,8 @@
-#Day 1 - Instructor-led / step-by-step lab – individual learning
+# Day 1 - Instructor-led / step-by-step lab – individual learning
 
 You need to have installed at least [Docker](https://docs.docker.com/install/) on your local machine (Windows, macOS or Linux) which will be named throughout the labs below as "jumpbox" or "local machine".
 
-##9am
+## 9am
 
 - Introduction of the day
 - Presentation
@@ -10,7 +10,7 @@ You need to have installed at least [Docker](https://docs.docker.com/install/) o
 - Lab2 - [Create Docker images for apps and push to Azure Container Registry](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/02-dockerize-apps.md)
 - Wrap up
 
-##10:30am
+## 10:30am
 
 - Presentation
 - Lab3 - [Create an Azure Kubernetes Service (AKS) cluster](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/03-create-aks-cluster.md)
@@ -19,20 +19,20 @@ You need to have installed at least [Docker](https://docs.docker.com/install/) o
 - Lunch
 - Wrap up
 
-##1:30pm
+## 1:30pm
 
 - Presentation
-6. [Operational Monitoring and Log Management](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/06-monitoring-k8s.md)
-7. [Application and Infrastructure Scaling](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/07-cluster-scaling.md)
+-Lab6 - [Operational Monitoring and Log Management](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/06-monitoring-k8s.md)
+-Lab7 - [Application and Infrastructure Scaling](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/07-cluster-scaling.md)
 - Wrap up
 
-##3pm
+## 3pm
 
 - Presentation
-8. [Moving your data services to Azure PaaS (CosmosDB)](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/08-migrate-mongo-to-cosmos.md)
-9. [Update and Deploy New Version of Application](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/09-update-application.md)
-10. [Upgrade an Azure Kubernetes Service (AKS) cluster](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/10-cluster-upgrading.md)
+- Lab8 - [Moving your data services to Azure PaaS (CosmosDB)](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/08-migrate-mongo-to-cosmos.md)
+- Lab9 - [Update and Deploy New Version of Application](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/09-update-application.md)
+- Lab10 - [Upgrade an Azure Kubernetes Service (AKS) cluster](https://github.com/Azure/blackbelt-aks-hackfest/labs/day1-labs/10-cluster-upgrading.md)
 - Wrap up
 
-##4:30
+## 4:30
 - Wrap up of the day
