@@ -1,4 +1,4 @@
-This 2 days workshop is for helping Canadian Partners get up to speed with Azure Kubernetes Service (AKS).
+This 2 days workshop is for helping Canadian Partners get up to speed with Docker, Kubernetes and Azure Kubernetes Service (AKS).
 
 ## PREREQUISITES
  
@@ -17,20 +17,25 @@ Finally, to access the labs, you’ll need a Microsoft Azure subscription. You w
 
 ## Day 1
 
-Instructor-led / step-by-step lab – individual learning
-- Intros and setup Lab environment
-- Run app locally to test components
-- Create Docker images for apps and push to Azure Container Registry
-- Create an Azure Kubernetes Service (AKS) cluster and deploy application to it
-- Operational Monitoring and Log Management
-- Application and Infrastructure Scaling
-- Moving your data services to Azure PaaS (CosmosDB)
-- Upgrade an Azure Kubernetes Service (AKS) cluster
+You need to have installed at least [Docker](https://docs.docker.com/install/) on your local machine (Windows, macOS or Linux) which will be named throughout the labs below as "jumpbox" or "local machine".
 
-[Details here](./Day1.md).
-
-## Day 2
-
-Hackfest Team challenges – The challenges will be provided the morning of the event. Attendees will be broken into teams and given a number of open-ended challenges that they will need to solve with key success criteria that must be met to complete a challenge. Success criteria will be judged by proctors.
-
-[Details here](Day2.md).
+- *Introduction of the day*
+- Presentations: *Cloud Native applications, Microservices, Containers and Docker*
+- Lab1 - [Run app locally to test components](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/01-setup-app-local.md)
+- Lab2 - [Create Docker images for apps and push to Azure Container Registry](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/02-dockerize-apps.md)
+- Wrap up
+- Presentations: *Orchestrator, Kubernetes overview, Azure Kubernetes Service (AKS)*
+- Lab3 - [Create an Azure Kubernetes Service (AKS) cluster](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/03-create-aks-cluster.md)
+- Lab4 - [Deploy application to Azure Kubernetes Service](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/04-deploy-app-aks.md)
+- Lab5 - [Kubernetes UI Overview](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/05-kubernetes-ui.md)
+- Wrap up
+- Presentations: *Kubernetes concepts, ACI, ACR, Operations and Management concepts, Scaling*
+- Lab6 - [Operational Monitoring and Log Management](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/06-monitoring-k8s.md)
+- Lab7 - [Application and Infrastructure Scaling](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/07-cluster-scaling.md)
+- Wrap up
+- Presentations: *Storage and State, Open Service Broker, Upgrading*
+- Lab8 - [Moving your data services to Azure PaaS (CosmosDB)](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/08-migrate-mongo-to-cosmos.md)
+- Lab9 - [Update and Deploy New Version of Application](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/09-update-application.md)
+- Lab10 - [Upgrade an Azure Kubernetes Service (AKS) cluster](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/10-cluster-upgrading.md)
+- Wrap up
+- Wrap up of the day + Q&A
