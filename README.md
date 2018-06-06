@@ -28,7 +28,7 @@ You need to have installed at least [Docker](https://docs.docker.com/install/) o
 - *(Optional - needs NodeJS and mongoimport installed)* Lab1 - [Run app locally to test components](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/01-setup-app-local.md)
 - Lab2 - [Create Docker images for apps and push to Azure Container Registry](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/02-dockerize-apps.md)
     - **Note** You will need to git clone the [Azure/blackbelt-aks-hackfest](https://github.com/azure/blackbelt-aks-hackfest) to your local environment for this Lab
-    - ``` git clone git@github.com:Azure/blackbelt-aks-hackfest.git```
+    - ``` git clone https://www.github.com/Azure/blackbelt-aks-hackfest.git```
 - Wrap up
 - Presentations: **Orchestrator, Kubernetes overview, Azure Kubernetes Service (AKS)**
 - Lab3 - [Create an Azure Kubernetes Service (AKS) cluster](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/03-create-aks-cluster.md)
