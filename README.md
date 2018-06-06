@@ -21,7 +21,7 @@ You need to have installed at least [Docker](https://docs.docker.com/install/) o
 
 - *Introduction of the day*
 - Presentations: **Cloud Native applications, Microservices, Containers and Docker**
-- Lab1 - [Run app locally to test components](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/01-setup-app-local.md)
+- *(Optional - needs NodeJS and mongoimport installed)* Lab1 - [Run app locally to test components](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/01-setup-app-local.md)
 - Lab2 - [Create Docker images for apps and push to Azure Container Registry](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/02-dockerize-apps.md)
 - Wrap up
 - Presentations: **Orchestrator, Kubernetes overview, Azure Kubernetes Service (AKS)**
