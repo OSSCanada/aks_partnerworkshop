@@ -12,6 +12,10 @@ In addition to the OS, please ensure the following tools need are setup/configur
 - [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/install-azure-cli)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Helm](https://github.com/kubernetes/helm)
+- [git](https://git-scm.com)
+    - [For Windows](https://git-scm.com/download/win)
+    - [For Mac](https://git-scm.com/download/mac)
+    - For Linux...you should know ;)
 
 Finally, to access the labs, you’ll need a Microsoft Azure subscription. You will host and provision all the Azure services you’ll need for the labs and challenges into it.
 
