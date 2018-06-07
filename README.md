@@ -45,3 +45,9 @@ You need to have installed at least [Docker](https://docs.docker.com/install/) o
 - Lab10 - [Upgrade an Azure Kubernetes Service (AKS) cluster](https://github.com/Azure/blackbelt-aks-hackfest/blob/master/labs/day1-labs/10-cluster-upgrading.md)
 - Wrap up
 - **Wrap up of the day + Q&A**
+
+## Day 2
+
+Hackfest Team challenges – The challenges will be provided the morning of the event. Attendees will be broken into teams and given a number of open-ended challenges that they will need to solve with key success criteria that must be met to complete a challenge. Success criteria will be judged by proctors.
+
+[Details here](./Day2.md).
