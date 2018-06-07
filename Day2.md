@@ -49,7 +49,9 @@ Your goal is to deploy the two different custom Docker images. You should prepar
 Your web/api container should use your database container as its underlying datastore i.e. they should be working together as part of an n-tier application and not simply deployed in isolation.
 
 **Success criteria:**
-- Your team must demonstrate your chosen **v1.0 containers running on their local machine to a coach** and prove the data is persisting between refreshes/sessions (i.e. data is being stored from your web/api container to your database container).
+Your team must demonstrate:
+1. your chosen **v1.0 containers running on their local machine to a coach** 
+2. prove the data is persisting between refreshes/sessions (i.e. data is being stored from your web/api container to your database container)
 
 Tips & Resources:
 - Docker
@@ -59,9 +61,9 @@ Tips & Resources:
 In this challenge you will push (i.e. save) your custom Docker container(s) built locally, to a private Azure Container Registry (ACR) to share/deploy to your organization's container environment(s). You can/will then update your web/api code, rebuild the container and push it into ACR as as a v2.0/vNext .
 
 **Success criteria:**
-- Your team must demonstrate:
-  - **how you have built your containers and pushed them in your ACR**, could be a manual process, but wouldn't it be better to automate this???
-  - **prove v2.0 containers are published into your Azure Container Registry**
+Your team must demonstrate:
+1. **how you have built your containers and pushed them in your ACR**, could be a manual process, but wouldn't it be better to automate this???
+2. **prove v2.0 containers are published into your Azure Container Registry**
 
 Tips & Resources:
 - Azure CLI (ACR sub-command)
@@ -73,15 +75,17 @@ Tips & Resources:
 
 ## Challenge 3 - Deploy to the Cloud, Azure Kubernetes Service (AKS)
 
-In this challenge you will deploy your containers stored in your private Azure Container Registry to your Azure Kubernetes Service (AKS) cluster. Furthermore, the goal is to deploy them in a different Kubernetes namespace than the `default` one.
+In this challenge you will deploy your containers that are stored/saved in Azure Container Registry to your organization's Azure Kubernetes Service (AKS) cluster. Furthermore, the goal is to deploy them in a different Kubernetes namespace other than the `default` one.
 
 **Success criteria:**
-- Your team must demonstrate **your app/api and database containers are deployed in your AKS cluster in a different namespace than the default one and are up and running**, could be manually, but maybe you would like to automate this?
+Your team must demonstrate:
+1. **your app/api and database containers are deployed in your AKS cluster in a different namespace other than the "default" namespace***
+2. **the app is up and running** i.e. can save/persist/display data just like before
 
 Tips & Resources:
-- AKS CLI
+- Azure-CLI (AKS sub-command)
 - Kubernetes Namespaces
-- Helm?
+- Helm...que-ce que c'est?
 
 ## Challenge 4 - Persisting database workload
 
