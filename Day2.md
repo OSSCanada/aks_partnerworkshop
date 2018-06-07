@@ -17,16 +17,17 @@ TOC
 
 - 8:30am - Assigned Teams + Breakfast
 - 9am - Kick-off
+- 9:30am - Work as teams to complete Kubernetes Challenges
 - 12pm - Lunch will be served while you will continue your challenges
 - 3:30pm - General wrap up: each team sharing what they have done and learned
 
 # Introduction
 
-You are the R&D team for a startup that wants to investigate the technical viability of containerize an application and its database your are currently hosting on VMs.
+You are part of the R&D team for your organization.  Your team has been tasked with investigating the technical viability of containerizing an existing application and its corresponding database that is currently running in a traditional VM environment.
 
-As a Team, take one simple solution (web/api + database on containers ideally) and go through the process by doing your own research to resolve each challenge. Each challenge will lead you through a stage of the technical investigation as briefly laid out by your fictional CTO, these investigations become more technically challenging as you progress.
+As a Team, you will attempt to go through designing/architechting out a solution/process, by researching how to resolve each of the below challenges. Each challenge will lead you through a set of the technical investigations has been briefly laid out by your (fictional) CTO.  Each of these investigations are meant to solve an increasingly more technical challenging as you progress.
 
-We do not provide guides, or instructions to solve the challenges, just a few hints and documentation references that you may find useful. There are multiple ways to solve each challenge, and very likely some we haven't thought of, so whilst we have some ideas of the most common solutions we're interested to see your own unique solutions to the problem.
+We do not provide guides, or instructions on how to solve the challenges, just a few hints/pointers to documentation and references that you *may* find useful. There are potentiall multiple solutions to each challenge and very likely some which haven't been thought of.  While there are common solutions to each challenge, we're primarily interested in seeing your own unique thought process and outcome to solve for each challenge.
 
 # General resources
 
