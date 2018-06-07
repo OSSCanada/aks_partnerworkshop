@@ -41,19 +41,18 @@ We do not provide guides, or instructions on how to solve the challenges, just a
 
 ## Challenge 1 - Containerizing application locally
 
-In this challenge you'll be taking an existing service/application that you will containerize, run it locally and ensure it works.
+In this challenge you'll be taking an existing service/application that you will containerize, run it in Docker locally and ensure it works first.
 
-Your goal is to deploy the two different custom Docker images you should prepare:
-1. web/api container: NodeJS, .NET Core, etc.
+Your goal is to deploy the two different custom Docker images. You should prepare:
+1. web/api container: NodeJS, .NET Core, etc. (whatever is in your heart)
 2. database container: MongoDB, SQL Server, etc.
-Your web/api container should display the data coming from your database container.
+Your web/api container should use your database container as its underlying datastore i.e. they should be working together as part of an n-tier application and not simply deployed in isolation.
 
 **Success criteria:**
-- Your team must demonstrate your chosen **v1.0 containers running on their local machine to a coach**.
+- Your team must demonstrate your chosen **v1.0 containers running on their local machine to a coach** and prove the data is persisting between refreshes/sessions (i.e. data is being stored from your web/api container to your database container).
 
 Tips & Resources:
 - Docker
-- Draft?
 
 ## Challenge 2 - Continuous Integration with your containers
 
