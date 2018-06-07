@@ -1,5 +1,3 @@
-TODO: What about Linux versus Windows on AKS?
-
 TOC
 - [Agenda of Day2](#agenda-of-day2)
 - [Introduction](#introduction)
@@ -38,6 +36,8 @@ We do not provide guides, or instructions on how to solve the challenges, just a
 - [Troubleshoot applications with Kubernetes](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application/)
 
 # Challenges
+
+*General note: currently AKS only support Linux workload (Windows in Private preview as we speak). But if you would like to follow the Windows containers path, you could look at "ACS-Engine" or "Azure Container Instances (ACI) with VirtualKubelet". Up to you!*
 
 ## Challenge 1 - Containerizing application locally
 
@@ -85,7 +85,6 @@ Your team must demonstrate:
 Tips & Resources:
 - Azure-CLI (AKS sub-command)
 - Kubernetes Namespaces
-- Helm...que-ce que c'est?
 
 ## Challenge 4 - Persisting database workload
 
