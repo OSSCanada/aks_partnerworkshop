@@ -1,13 +1,17 @@
+# Azure Kubernetes Hackfest with Partners
+
 This 2 days workshop is for helping Canadian Partners get up to speed with Docker, Kubernetes and Azure Kubernetes Service (AKS).
 
-## PREREQUISITES
- 
+## Prerequisites
+
 As part of this workshop, please plan to bring a laptop with you that has one of the following OS, or access to a VM with the OS on it:
+
 - Windows 10 with Windows Subsystem for Linux installed
 - MacOS with Homebrew installed
 - Linux distribution such as Ubuntu or CentOS
 
 In addition to the OS, please ensure the following tools need are setup/configured for the best workshop experience:
+
 - [Docker CE](https://docs.docker.com/install/)
 - [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/install-azure-cli)
 - [Visual Studio Code](https://code.visualstudio.com/)
