@@ -89,49 +89,69 @@ Tips & Resources:
 
 ## Challenge 4 - Persisting database workload
 
-In this challenge, you will fix an issue one of your team member raised regarding the data persisted on your database container. What's happening for the data if the associated `Pod` crashed, is updated? Give it a try! Just to `kubectl delete po/<your-database-pod-name>`.
+In this challenge, you will fix an issue that one of your team members have raised regarding the data persisted to your database. What's happening to the data if the associated `Pod` crashes (dies) or is updated? 
 
-How do you want to solve that?
+Live dangerously!!!! Give it a try!!! [devil emoji]
+
+```:bash
+  kubectl delete po/<your-database-pod-name>
+```
+
+How can you solve for this?
 
 **Success criteria:** 
-- Your team must demonstrate: TODO
+Your team must demonstrate:
+1. **Deleting a database pod manually** and the pod being resurrected back to life...magically
+2. **The data the original pod(s) saved** is still there...even though they were tragically murdered in cold digital bloooood
 
 Tips & Resources:
-- Kubernetes Volumes and PersistentVolumes
-- OSBA?
+- Kubernetes Volumes, Persistent Volumes, Persisten Volume Claims
+- Replica Sets vs. Daemon Sets vs. ???
+- OSBA - what is it and why could this be a better solution for persisting data?
 
 ## Challenge 5 - Routing traffic to multiple applications
 
-In this challenge, you will implement one of your needs which is to route traffic depending on the URL path. For example `/my-url-v1` is going to one web/app container (v1.0) and `/my-url-v2` is going to another web/app container (v2.0), both hosted in your AKS cluster.
+In this challenge, you will implement a need/want from your CTO, which is to route traffic depending on the URL endpoint path. For example `/my-url-v1` is going to route to one web/app container version/instance/build (e.g. v1.0) and `/my-url-v2` is going to another web/app container version/instance/build (e.g. v2.0), which are both hosted in the same AKS cluster.
 
 **Success criteria:**
-- Your team must demonstrate: hitting `/my-url-v1` is going to your web/app container (v1.0) and `/my-url-v2` is going to your web/app container (v2.0), both hosted in your AKS cluster.
+Your team must demonstrate:
+1. hitting `/my-url-v1` in a browser is going to your "first" web/app container (i.e. v1.0/vCurrent)
+2. hitting `/my-url-v2` in a browser is going to your "second" web/app container (i.e. v2.0/vNext)
+3. both are hosted in the same AKS cluster simultaneously
 
 Tips & Resources:
 - Kubernetes ConfigMaps and Secrets
-- Kubernetes Ingress Controllers
+- Kubernetes Ingress Controllers vs. Services
+- Blue/Green, Red/Black deployments vs. A/B Testing vs. Rolling Updates
 - Azure Traffic Manager?
 
 ## Challenge 6 - Monitoring and Logging using existing organizational tools
 
-In this challenge, you will configure tools to get more insights, logs, etc. to be able to monitor your infra, your nodes, your pods, your application, etc. You could use different tools but why not the one you are currently using?
+In this challenge, you will configure tools to get more insights, logs, etc. to be able to monitor your infrastructure, nodes, pods, application/services, etc. You could use new and different tooling for each but why can't you just keep using the tools that you already know and (likely) love?
 
 **Success criteria:**
-- Your team must demonstrate: **different information at different levels you are getting for a monitoring perspective**.
+Your team must demonstrate: 
+1. **different information/telemetry for different levels of monitoring granularity/perspectives**.
 
 Tips & Resources:
 - Prometheus/Grafana
 - ELK?
 - OMS/LogAnalytics?
 - Splunk?
+- DataDog?
+- SysDig?
 
 ## Challenge 7 - Serverless Containers
 
-Have you heard about the concept of Serverless Containers? To be able to accelerate your delivery process you are looking for the ability to on-demand scale node agents without waiting for VMs provisioning. You have heard that Azure Container Instances (ACI) could help on that. Let's host your web/api container there! And link it to your AKS cluster?!
+Your CTO just heard from some cool kids, about this new concept of "Serverless Containers". To be able to handle random spikes in demand, your CTO wants you to look into the ability to (almost) instantly scale your services on-demand in seconds without waiting for VMs (agent nodes) to provision/join your cluster, which can take multiple minutes...which is now a virtual lifetime to wait for. 
+
+You have heard from the same cool kids that Azure Container Instances (ACI) could help solve all your problems in life. Let's try to host your web/api containers there! But how can you link it to your AKS cluster?!
 
 **Success criteria:**
-- Your team must demonstrate: how you could **leverage this Serverless Containers concepts within your AKS cluster with your we/api containers**.
+Your team must demonstrate: 
+1. how you could **leverage this Serverless Containers concepts within your AKS cluster with your we/api containers** and scale your app almost instantaneously
+2. What are the downsides to this whole instant bursty container thingy?
 
 Tips & Resources:
-- ACI CLI
-- Virtual Kubelet - ACI Connector
+- Azure-CLI (ACI sub-command)
+- Virtual Kubelet vs. ACI Connector??
