@@ -56,19 +56,20 @@ Tips & Resources:
 
 ## Challenge 2 - Continuous Integration with your containers
 
-In this challenge you will push your containers on a private Azure Container Registry (ACR). You will then update your web/api container to push a v2.0 in your private ACR.
+In this challenge you will push (i.e. save) your custom Docker container(s) built locally, to a private Azure Container Registry (ACR) to share/deploy to your organization's container environment(s). You can/will then update your web/api code, rebuild the container and push it into ACR as as a v2.0/vNext .
 
 **Success criteria:**
 - Your team must demonstrate:
-  - **how you have built your containers and pushed them in your ACR**, could be manually, but maybe you would like to automate this?
-  - **your v2.0 containers published in their private Azure Container Registry**
+  - **how you have built your containers and pushed them in your ACR**, could be a manual process, but wouldn't it be better to automate this???
+  - **prove v2.0 containers are published into your Azure Container Registry**
 
 Tips & Resources:
-- ACR CLI
+- Azure CLI (ACR sub-command)
 - ACR Build?
 - Brigade?
 - Jenkins?
 - VSTS?
+- Git pre/post Hooks?
 
 ## Challenge 3 - Deploy to the Cloud, Azure Kubernetes Service (AKS)
 
